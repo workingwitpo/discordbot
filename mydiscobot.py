@@ -10,7 +10,6 @@ from discord import Status
 BOT_PREFIX = "!"
 command_prefix = BOT_PREFIX
 client = Bot(BOT_PREFIX)
-TOKEN = 'NDY4MTU2ODkxMTM1MjEzNTY5.Di1L9g.F_JOykfwNiCRjFUIc6oVrRm0ALo'
 
 
 @client.event
@@ -99,5 +98,5 @@ async def play(ctx, *description):
 
 
 
-client.run(TOKEN)
+client.run(os.getenv('TOKEN')
 
