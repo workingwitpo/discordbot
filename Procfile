@@ -1,1 +1,1 @@
-worker = mydiscobot.py
+worker = python mydiscobot.py
