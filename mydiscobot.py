@@ -5,6 +5,7 @@ import random
 import requests
 from discord import Game
 from discord import Status
+import os
 
 
 BOT_PREFIX = "!"
