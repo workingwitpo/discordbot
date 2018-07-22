@@ -99,5 +99,5 @@ async def play(ctx, *description):
 
 
 
-client.run(os.getenv('TOKEN'))
+client.run(str(os.environ.get('TOKEN')))
 
