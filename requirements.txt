@@ -1,1 +1,4 @@
-discord.py
+discord
+youtube_dl
+random
+requests
