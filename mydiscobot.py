@@ -6,6 +6,7 @@ import requests
 from discord import Game
 from discord import Status
 import os
+import asyncio
 
 
 BOT_PREFIX = "!"
