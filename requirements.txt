@@ -1,4 +1,4 @@
 discord
-youtube_dl
+youtube-dl
 requests
 asyncio
