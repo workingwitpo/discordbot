@@ -1,6 +1,6 @@
 import discord
 from discord.ext.commands import Bot
-import youtube-dl
+import youtube_dl
 import random
 import requests
 from discord import Game
